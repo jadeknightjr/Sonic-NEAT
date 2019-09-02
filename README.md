@@ -3,6 +3,10 @@ This is the repository of me experimenting with RetroAI to make Sonic the Hedgeh
 
 ## playback.py
 This simply runs the .pkl that solved GreenHillZone.Act1 . This file also creates a .bk2 file from the .pkl file that you are running(in this case, it reads in the only included .pkl file). RetroAI includes a playback_movie.py which allows you to convert that .bk2 file into any format(I chose .mp4).
+```
+# Example
+python3 -m retro.scripts.playback_movie SonicTheHedgehog-Genesis-GreenHillZone.Act1-000000.bk2
+```
 
 ## tut1.py
 Essentially this is what happens when every movement is random and no learning is really taking place
