@@ -2,7 +2,7 @@
 This is the repository of me experimenting with RetroAI to make Sonic the Hedgehog beat the game.
 
 ## playback.py
-This simply runs the .pkl that solved GreenHillZone.Act1
+This simply runs the .pkl that solved GreenHillZone.Act1 . This file also creates a .bk2 file from the .pkl file that you are running(in this case, it reads in the only included .pkl file). RetroAI includes a playback_movie.py which allows you to convert that .bk2 file into any format(I chose .mp4).
 
 ## tut1.py
 Essentially this is what happens when every movement is random and no learning is really taking place
